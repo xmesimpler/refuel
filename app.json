@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/path/find-path",
+    "pages/navigation_car_detail/navigation",
+    "pages/map/map",
+    "pages/station/station",
+    "pages/station-list/first",
+    "pages/poi/poi"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "惠加油",
+        "iconPath": "img/Gas_station_207px_1198280_easyicon.net.png",
+        "selectedIconPath": "img/Gas_station_207px_1198280_easyicon.net1.png"
+        
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "img/personal_404px_1161804_easyicon.net.png",
+        "selectedIconPath": "img/personal_404px_1161804_easyicon.net1.png"
+      }
+    ]
+  }
+}

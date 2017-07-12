@@ -1,0 +1,17 @@
+/* pages/station/station.wxss */
+.index-container{
+  width: 100%;
+  height: 100%;
+}
+.index-container image{
+  width: 100%;
+  height:130px;
+}
+
+
+
+.display{
+display: flex;
+flex-direction: column;
+
+}

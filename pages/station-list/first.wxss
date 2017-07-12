@@ -1,0 +1,10 @@
+/* pages/station-list/first.wxss */
+
+.index-container{
+  width: 100%;
+  height: 100%;
+}
+.index-container image{
+  width: 100%;
+  height:650px;
+}

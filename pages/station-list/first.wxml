@@ -1,0 +1,6 @@
+<!--pages/station-list/first.wxml-->
+<view class="index-container">
+
+  <image src="/img/官渡.jpg"></image>
+
+</view>

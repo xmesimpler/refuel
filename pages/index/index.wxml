@@ -1,0 +1,62 @@
+<!--index.wxml-->
+
+<view class="userinfo-nickname">
+  <text>最新优惠</text>
+</view>
+<!--可滚动视图-->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circilar="true">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item class="userinfo">
+        <image src="{{item}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!--功能区-->
+<view class="">
+  <view class="section__title">主要功能区</view>
+
+  <view class="row" style="flex-direction:row;">
+    <view class="flex-item" bindtap="topath">
+      <text>路线规划</text>
+    </view>
+
+    <view class="flex-item" bindtap="tostation">推荐加油站</view>
+    <view class="flex-item" bindtap="toPoi">周围兴趣点</view>
+  </view>
+</view>
+
+<!--油价显示-->
+<view>
+  <view class="section__title">当前油价</view>
+  <picker-view indicator-style="height: 50px;" style="width: 100%; height: 100px;" value="{{value}}" bindchange="select">
+    <picker-view-column>
+      <view wx:for="{{gas}}">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view>{{price[index]}}元/升</view>
+    </picker-view-column>
+  </picker-view>
+
+</view>
+
+<!--
+<button type="primary" bindtap="toMap">地图</button>
+<button type="default" bindtap="showloc">获取位置参数</button>
+-->
+
+
+<!--待删除-->
+<!--
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+
+
+</view>
+-->

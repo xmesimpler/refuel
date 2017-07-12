@@ -1,0 +1,17 @@
+<!--pages/station/station.wxml-->
+<view class="display">
+
+
+  <view class="index-container">
+
+    <image src="/img/head.png"></image>
+
+  </view>
+
+  <view class="index-container" bindtap="tostadetail">
+
+    <image src="/img/first.png"></image>
+
+  </view>
+
+</view>
